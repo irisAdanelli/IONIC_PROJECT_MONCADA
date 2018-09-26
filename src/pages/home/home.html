@@ -7,12 +7,21 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content padding fxLayoutAlign="center">
+  <h3>BIENVENIDOS</h3>
+<br>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+<br>
+<ion-list [virtualScroll]="">
+  <ion-item-divider>
+      <p>CAFÉ 100% NAYARITA, CAFÉ MONCADA  -  <ion-icon name="cafe"></ion-icon></p>
+  </ion-item-divider>
+  <ion-item *virtualItem="let item">
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  </ion-item>
+</ion-list>
+<br>
+<ion-img src="../../../../PRINCIPAL/images/logo.jpg"></ion-img>
+<br>
+  <button ion-button secondary menuToggle>Login</button>
 </ion-content>
