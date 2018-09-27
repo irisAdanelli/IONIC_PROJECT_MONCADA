@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>MONCADA</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+   <ion-card class="tarjeta">
+     <ion-card-header>
+        CUÁL ES TU FAVORITO?
+     </ion-card-header>
+     <ion-card-content>
+       <p>
+         POSTRES DE MONCADA:
+       </p>
+       <button ion-button block  (click)="goBack()">
+          VOLVER ATRÁS
+      </button>
+       <ion-fab bottom right #fab>
+        <button ion-fab>Share</button>
+        <ion-fab-list>
+          <button ion-fab>
+            <ion-icon name="arrow-back"></ion-icon>
+          </button>
+       </ion-fab-list>
+      </ion-fab>
+     </ion-card-content>
+   </ion-card>
+</ion-content>

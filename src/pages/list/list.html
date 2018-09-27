@@ -3,7 +3,7 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>List</ion-title>
+    <ion-title>MONCADA</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -20,4 +20,7 @@
   <div *ngIf="selectedItem" padding>
     You navigated here from <b>{{selectedItem.title}}</b>
   </div>
+  <button ion-button block (click)="goDessert()">
+    other page 1
+  </button>
 </ion-content>
